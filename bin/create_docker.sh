@@ -51,7 +51,6 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -z ${software} ]]; then
-    
     usage
     echo -e "[ERROR]\tsoftware name not specified"
     exit 1
@@ -83,6 +82,6 @@ cmd="time \
 docker build \
 ${in_paths[dir]} \
 -t ${software}:${version} \
--f ${in_paths[file]}"
+-f ${in_paths[dir]}/${in_paths[file]}"
 echo -e "\ncommand:\n${cmd}\n"
 eval ${cmd}
