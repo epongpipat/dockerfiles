@@ -1,0 +1,3 @@
+epongpipat/rHelperKennedyRodrigue
+epongpipat/rHelperPlotQuadratics
+epongpipat/eepR
