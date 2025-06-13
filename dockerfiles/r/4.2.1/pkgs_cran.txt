@@ -33,3 +33,4 @@ quarto
 rmarkdown
 RNifti
 remotes
+gifti
