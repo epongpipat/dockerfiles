@@ -6,3 +6,8 @@ dipy
 scipy
 nibabel
 nilearn
+hd-bet
+dmri-amico
+dmri-commit
+neuromaps
+abagen
