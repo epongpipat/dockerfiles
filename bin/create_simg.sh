@@ -85,8 +85,10 @@ fi
 # ------------------------------------------------------------------------------
 # main
 # ------------------------------------------------------------------------------
+# DOCKER_API_VERSION=1.40 is a "fix" to get docker2singularity working with latest version of docker
 cmd="time \
 docker run \
+-e DOCKER_API_VERSION=1.40 \
 -v /var/run/docker.sock:/var/run/docker.sock \
 -v ${out_dir}:/output \
 --privileged \
