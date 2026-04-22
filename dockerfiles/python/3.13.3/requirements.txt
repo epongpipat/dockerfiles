@@ -11,3 +11,5 @@ dmri-amico
 dmri-commit
 neuromaps
 abagen
+nipype
+nitime
