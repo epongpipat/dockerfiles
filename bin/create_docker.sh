@@ -63,8 +63,8 @@ fi
 # ------------------------------------------------------------------------------
 # paths
 # ------------------------------------------------------------------------------
-code_dir=$(dirname $0)
-code_dir=$(dirname ${code_dir})
+# code_dir=$(dirname $0)
+code_dir=$(dirname $(dirname $(which create_docker.sh)))
 
 declare -A in_paths
 in_paths[dir]="${code_dir}/dockerfiles/${software}/${version}"
